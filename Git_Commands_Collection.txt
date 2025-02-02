@@ -1,0 +1,21 @@
+Youtube:https://www.youtube.com/watch?v=k0qAzjlQaMA&list=PLN00Qh4gtjNsA_SVEYKgLOEtSszFL2Bfn&index=9
+git --version (enter)
+git (enter)
+git help
+git config --list
+git config --global user.name="Vinothkumar M"
+git config --globa color.ui auto(by default)/false/true
+git gui this will open gui
+gitk this will open another window to show differences.
+git init or git init project3
+git status after create a file or removed a file.
+git add filename or 
+git add . for multifiles
+git add -u to only add updated files and deleted files or to stage.
+git reset newfile unstaged -if you want to remove new file after staged but before commit.
+git commit -m "message"
+git log
+git push
+IndiaGit@231987@
+Murugan@231987@
+https://www.youtube.com/watch?v=ihc8JCDVEIk&list=PL20nrB6KzY4DBJY4_Qpdm33rBeBpllPb-
