@@ -10,6 +10,7 @@ git config --global user.name="Vinothkumar M"
 git config --globa color.ui auto(by default)/false/true
 git gui this will open gui
 gitk this will open another window to show differences.
+
 git init or git init project3
 git status after create a file or removed a file.
 git add filename or 
@@ -32,3 +33,5 @@ git checkout develop --it will got inside develop branch
 git checkout -b qa --it will create a qa branch and then move inside.
 git merge srcbranch targetbranch
 git branch -d qa --it will delete the qa branch
+git chekcout feature;git rebase commitid --this is for all sequences of commits (or) git cherry-pick commitid --this should be run from target branch.
+git add . and then ;git status ; git stash --to hide some uncommited staged file.
