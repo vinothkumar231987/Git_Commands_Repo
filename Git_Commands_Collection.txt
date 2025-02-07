@@ -1,4 +1,7 @@
-Youtube:https://www.youtube.com/watch?v=k0qAzjlQaMA&list=PLN00Qh4gtjNsA_SVEYKgLOEtSszFL2Bfn&index=9
+Youtube:
+https://www.youtube.com/watch?v=k0qAzjlQaMA&list=PLN00Qh4gtjNsA_SVEYKgLOEtSszFL2Bfn&index=9
+https://www.youtube.com/watch?v=ihc8JCDVEIk&list=PL20nrB6KzY4DBJY4_Qpdm33rBeBpllPb-
+https://www.youtube.com/watch?v=436xDqkfU-s
 git --version (enter)
 git (enter)
 git help
@@ -15,7 +18,11 @@ git add -u to only add updated files and deleted files or to stage.
 git reset newfile unstaged -if you want to remove new file after staged but before commit.
 git commit -m "message"
 git log
-git push
-IndiaGit@231987@
-Murugan@231987@
-https://www.youtube.com/watch?v=ihc8JCDVEIk&list=PL20nrB6KzY4DBJY4_Qpdm33rBeBpllPb-
+git push origin master
+git branch --to get branch details
+git remote -v --to see set urls  of fetch and push
+git set-urls --push someotherprojecthttpsurl
+git set-urls --fetch someotherprojecthttpsurl
+git remote add origin https://url_newrepo.git --if u want to clone others repository to your local repository.
+git branch -M "master" --this is to rename main to master, -M means rename
+git push -u origin master -- -u means update.
