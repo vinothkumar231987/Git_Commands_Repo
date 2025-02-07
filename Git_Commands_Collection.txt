@@ -30,3 +30,5 @@ git branch -a --to list all branches
 git branch develop --it will create a new develop branch
 git checkout develop --it will got inside develop branch
 git checkout -b qa --it will create a qa branch and then move inside.
+git merge srcbranch targetbranch
+git branch -d qa --it will delete the qa branch
