@@ -26,3 +26,7 @@ git set-urls --fetch someotherprojecthttpsurl
 git remote add origin https://url_newrepo.git --if u want to clone others repository to your local repository.
 git branch -M "master" --this is to rename main to master, -M means rename
 git push -u origin master -- -u means update.
+git branch -a --to list all branches
+git branch develop --it will create a new develop branch
+git checkout develop --it will got inside develop branch
+git checkout -b qa --it will create a qa branch and then move inside.
